@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Our homepage. Show the most recently added quote.
+ * Our homepage. Show a randomly-selected quote.
  * 
  * controllers/Welcome.php
  *
