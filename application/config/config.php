@@ -7,6 +7,7 @@ if (!defined('BASEPATH'))
 $config['menu_choices'] = array(
     'menudata' => array(
 	array('name' => "View 'Em", 'link' => '/viewer'),
+        array('name' => "Change 'Em", 'link' => '/admin'),
         )
     );
 
@@ -102,7 +103,7 @@ $config['charset'] = 'UTF-8';
   | setting this variable to TRUE (boolean).  See the user guide for details.
   |
  */
-$config['enable_hooks'] = FALSE;
+$config['enable_hooks'] = TRUE;
 
 
 /*
